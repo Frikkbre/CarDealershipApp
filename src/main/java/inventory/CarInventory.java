@@ -8,6 +8,7 @@ public class CarInventory {
 
     public CarInventory(HashMap<String, Car> mjøsBilRegistry) {
 
+
         carRegistry = mjøsBilRegistry;
 
     }
