@@ -1,3 +1,5 @@
+package product;
+
 import java.time.LocalDate;
 
 
@@ -110,8 +112,10 @@ public class Car {
     }
 
 
+    public static void main(String[] args) {
 
-    Car car1 = new Car(){
+
+        /*product.Car car1 = new product.Car() {
         car1.setRegistrationNumber("");
         car1.setYear(2008);
         car1.setAutomatic(false);
@@ -121,6 +125,8 @@ public class Car {
         car1.setModel("TT");
         car1.setMake("Audi");
         car1.setHorsepower(200);
+        }*/
+        System.out.println("Hello world!");
     }
 
 }
